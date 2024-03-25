@@ -1,23 +1,30 @@
 
-/* Source Colors */
+/* Source Colors (id)*/
 #one{background-color: darkgreen; color: pink;}
 #two{background-color: lightblue; color: orange;}
 #three{background-color: black; color: white;}
 #four{background-color: pink; color: darkgreen;}
 #five{background-color: blue; color: orange;}
 
-/* Header Colors */
+/* Header Colors (class)*/
 .hone{background-color: darkgreen; color: pink;}
 .htwo{background-color: lightblue; color: orange;}
 .hthree{background-color: black; color: white;}
 .hfour{background-color: pink; color: darkgreen;}
 .hfive{background-color: blue; color: orange;}
 
-/* Header Color Overide */
+/* Header Color Overide (h1 requirement)*/
 h1{color: white !important;}
 
 /*Body Styling*/
 body {background-color: lightseagreen; padding-bottom: 200px;}
 
-/* Link Styling */
-a{color: white;}
+.a1 {}
+
+.a2 {}
+
+.a3 {}
+
+.a4 {}
+
+.a5 {}
