@@ -16,15 +16,17 @@
 /* Header Color Overide (h1 requirement)*/
 h1{color: white !important;}
 
-/*Body Styling*/
+/*Tool Tip*/
 body {background-color: lightseagreen; padding-bottom: 200px;}
 
-.a1 {}
+.a1:hover::after {content: "Macintosh ll Image"; margin: 50px; margin-bottom: 100px;}
 
-.a2 {}
+.a2:hover::after  {content: "First Iphone Image"; margin: 50px; margin-bottom: 100px;}
 
-.a3 {}
+.a3:hover::after  {content: "Early Version Macbook Galaxy Background"; margin: 50px; margin-bottom: 100px;}
 
-.a4 {}
+.a4:hover::after  {content: "Modern Macbook on Desk";  margin: 50px; margin-bottom: 100px;}
 
-.a5 {}
+.a5:hover::after  {content: "Mac Book Air In The Dark "; margin: 50px; margin-bottom: 100px ;}
+
+.a5::after {pointer-events: none;  text-decoration: none;}
