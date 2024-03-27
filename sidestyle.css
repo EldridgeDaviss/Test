@@ -31,4 +31,8 @@ body {background-color: orange;}
 
 .footerflex{display: flex; 
          justify-content: center;}
+
+/*Table Centering*/
+
+table{margin-left:650px ; margin-bottom:20px;} 
   
