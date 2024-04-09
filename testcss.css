@@ -17,7 +17,7 @@
 h1{color: white !important;}
 
 /*Tool Tip*/
-body {background-color: lightseagreen; padding-bottom: 200px;}
+body {background-color: lightseagreen !important; padding-bottom: 200px;}
 
 .a1:hover::after {content: "Macintosh ll Image"; margin: 50px; margin-bottom: 100px;}
 

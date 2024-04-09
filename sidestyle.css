@@ -1,5 +1,5 @@
 
-body {background-color: orange;}
+body {background-color: orange !important;}
 
 
 /*Header Style*/
@@ -35,4 +35,6 @@ body {background-color: orange;}
 /*Table Centering*/
 
 table{margin-left:650px ; margin-bottom:20px;} 
+
+p{font-size: 40px;}
   

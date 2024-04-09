@@ -5,20 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Macintosh ll</title>
     <link rel="stylesheet" href="sidestyle.css">
+
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+      <!-- Bootstrap JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      
 </head>
 <body>
-
+ <!-- Navbar collapses if screen smaller than lg -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        
+        <!--Don't collapse the brandname -->
+        <a class="navbar-brand" href="#">Eldridge's Research</a>
+        
+        <!-- Toggle button (three vertical lines -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+           
+        <!-- Define what should collapse when you push the toggle button -->
+        <div class="collapse navbar-collapse" id="main-nav">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="macintosh.html">Macintosh ll</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iphone.html">First Iphone</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="firstmac.html">First Macbook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modernpro.html">Macbook Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="air.html">Macbook Air</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <header class="colorheader"><div class="flexhead">Macintosh ll</div></header>
-
+<div class="container"></div>
 <main>
-    <div class="fleximage">
-    <a href="https://unsplash.com/photos/white-apple-macintosh-classic-ii-monitor-uK4wFbs7sMU"><img width="380px"  src="https://images.unsplash.com/photo-1574710253427-7439259efafb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hY2ludG9zaCUyMGxsfGVufDB8fDB8fHww" alt=""></a>
-</div>
-    
-<div class="paraflex"><p>This is one of the first computers Apple ever released. It was a popular computer back when PCs were just coming out.</p></div>
-</main>
 
+
+    <div class="row"> 
+    <a class="col-md-6" href="https://unsplash.com/photos/white-apple-macintosh-classic-ii-monitor-uK4wFbs7sMU"><img width="700px"  src="https://images.unsplash.com/photo-1574710253427-7439259efafb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hY2ludG9zaCUyMGxsfGVufDB8fDB8fHww" alt=""></a>
+
+    
+<p class="col-md-6">This is one of the first computers Apple ever released. It was a popular computer back when PCs were just coming out.</p>
+</main>
+</div>
 <footer> <div class="footerflex"><p>Source: <a href="https://en.wikipedia.org/wiki/Macintosh_II">https://en.wikipedia.org/wiki/Macintosh_II</a></p></div></footer>
 
 
@@ -30,7 +77,7 @@
 
 
 <!--Table For Info-->
-<table border="1">
+<table border="1" >
     <tr>
         <th>Name of Milestone</th>
         <th>Information About Milestone</th>
