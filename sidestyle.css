@@ -28,6 +28,8 @@ body {background-color: orange !important;}
 .paraflex{display: flex; 
           justify-content: center;}
 
+img{max-width: 70%;}
+
 
 .footerflex{display: flex; 
          justify-content: center;}
@@ -37,4 +39,5 @@ body {background-color: orange !important;}
 table{margin-left:650px ; margin-bottom:20px;} 
 
 p{font-size: 40px;}
+
   
